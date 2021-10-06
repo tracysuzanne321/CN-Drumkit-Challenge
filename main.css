@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:900');
+
+* {
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-image: url(images/drumkit.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+
+h1, h2{
+    color: white;
+    font-family:'Montserrat Alternates', sans-serif;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    min-height: 50vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    color: white;
+    font-size: 100px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    padding:10px 45px 10px 45px;
+}
+  
+.box:hover{
+    cursor: pointer;
+}
+
+.box1 { background:#00d2ff;}
+.box2 { background:#00b0bf;}
+.box3 { background:#305488;}
+.box4 { background:#00b0bf;}
+.box5 { background:#305488;}
+.box6 { background:#00d2ff;}
+.box7 { background:#305488;}
+.box8 { background:#00d2ff;}
+.box9 { background:#00b0bf;}
+
+
+p{
+    font-size: 14px;
+}
+
+@keyframes box1{
+    0%, 100%{
+        transform: scale(1.2);
+    }
+    50%{
+        transform: scale(1.05);
+     }
+    }
+
+    @keyframes box2{
+        0%, 100%{
+            transform: scale(1.2);
+        }
+        50%{
+            transform: scale(1.05);
+            }
+        }
+        @keyframes box3{
+            0%, 100%{
+                transform: scale(1.2);
+            }
+            50%{
+                transform: scale(1.05);
+                }
+            }
+            @keyframes box4{
+                0%, 100%{
+                    transform: scale(1.2);
+                }
+                50%{
+                    transform: scale(1.05);
+                    }
+                }
+                @keyframes box5{
+                    0%, 100%{
+                        transform: scale(1.2);
+                    }
+                    50%{
+                        transform: scale(1.05);
+                        }
+                    }
+                    @keyframes box6{
+                        0%, 100%{
+                            transform: scale(1.2);
+                        }
+                        50%{
+                            transform: scale(1.05);
+                            }
+                        }
+                        @keyframes box7{
+                            0%, 100%{
+                                transform: scale(1.2);
+                            }
+                            50%{
+                                transform: scale(1.05);
+                                }
+                            }
+                            @keyframes box8{
+                                0%, 100%{
+                                    transform: scale(1.2);
+                                }
+                                50%{
+                                    transform: scale(1.05);
+                                    }
+                                }
+                                @keyframes box9{
+                                    0%, 100%{
+                                        transform: scale(1.2);
+                                    }
+                                    50%{
+                                        transform: scale(1.05);
+                                        }
+                                    }
+@media (max-width:540px) {
+    .box{
+        padding: 5px 25px 5px 25px;
+    }
+    
+}
